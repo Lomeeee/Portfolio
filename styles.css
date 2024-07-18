@@ -108,14 +108,60 @@ div.banner p:hover{
 
 .image_individual img {
     width: 100%;
+    height: auto;
     /* padding: 20px; */
 }
 .image_individual p{
+    font-family: monospace;
+    font-size: 20px;
     background-color: darkblue;
     color: white;
     padding: 20px;
 }
 .image_individual:hover{
-    text-decoration: overline ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: overline;
     color: white;
 }
+.socials{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    height: 400px;
+    background-color: black;
+    padding: 100px 0px;
+}
+.socials h1{
+    font-size: 60px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+.social{
+    display: inline-block;
+    padding: 50px;
+    font-size: 25px;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+}
+.social a:hover{
+    text-decoration: underline;
+}
+.footer{
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+
+
+
+
+
+
+/* background-image: url(Images/something); */
